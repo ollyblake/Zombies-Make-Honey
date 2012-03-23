@@ -1,1 +1,13 @@
 this is an image upload site for 'Zombies Make Honey'
+
+Problem:
+
+Have wanted to make this a multiple image upload site since the start but have had trouble. 
+I put it down to my lack of PHP knowledge. I have tried setting up 'image[]' in each file input 
+and then going through a foreach loop but keep running into problems when I try to check the
+image array with gif, jpg, jpeg file types. 
+
+The code at the moment is a bit messy because I started coding it to add a single file form  
+rather than a multiple file form. Any help is greatly apriciated. 
+
+-Olly
