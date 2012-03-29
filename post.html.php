@@ -84,8 +84,7 @@ require_once 'connect.php';
 				      $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 				
 				      // Write the data to the database
-				      $query = "INSERT INTO post(title, name, description, image1, post_it) VALUES ('$title','$name', '$description', '$image', '$post');"
-;
+				      $query = "INSERT INTO post(title, name, description, image1, post_it) VALUES ('$title','$name', '$description', '$image', '$post');";
 				      mysqli_query($dbc, $query);
 				
 				      // Confirm success with the user
