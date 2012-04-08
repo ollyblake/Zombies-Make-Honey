@@ -1,37 +1,34 @@
-body, p, h1, table, form {
+body, p, h1, table, form, h3, h2 {
     font-family: century gothic, helvetica, sans-serif;
-}
-
-h3, h2 {
-    font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
 }
 
 
 a {
     text-decoration: none;
-    color: #4e8f71;
+    color: #000000;
 }
 
 h1 {
     font-size: 18px;
+    color: #FFFFFF;
 }
 
 h2 {
+    color: #FFFFFF;
     text-align: center;
     font-weight: bold;
 }
 
 h3 {
     text-align: right;
-    font-style: italic;
     font-size: 16px;
 }
 
 hr {
-    background-color:#eee;
-    border:#888 1px dotted;
-    border-style: none none dashed;
-    color:#888;
+    background-color:#FFFFFF;
+    border:#FFFFFF 4px solid;
+    color:#fff;
+    width: 180px;
 }
 
 td.memberpostinfo {
@@ -75,7 +72,6 @@ input.s {
 /* classes */
 .box {
     width: 820px;
-    border:1px dashed #888;
     padding: 15px 0px 15px 20px;
     background: white;
     margin: auto;
@@ -83,12 +79,17 @@ input.s {
 
 .box2 {
     width: 820px;
-    border:1px dashed #888;
     padding: 0px 15px 15px 5px;
     background: white;
     margin: auto;
 }
 
+.success {
+    color: #FFFFFF;
+    margin: 0 0 0 -10px;
+    position: absolute;
+    top: 146px;
+}
 
 td.form {
     width: 280px;
@@ -154,7 +155,7 @@ td.formimage {
 }
 
 .heading {
-    color: blue;
+    color: #FFFFFF;
 }
 
 .hidden { display: none; }
@@ -170,8 +171,7 @@ td.formimage {
     width: 850px;
     margin:0px auto;
     padding:15px;
-    border:1px dashed #888;
-    background-color:#eee;
+    background-color:red;
 }
 
 #back-top {

@@ -89,17 +89,19 @@ require_once 'connect.php';
 				
 				      // Confirm success with the user
 				      echo '<div id="result">';
-				      echo '<p>Your post has been submitted, thank you. <a href="post.html.php" class="button">Submit another post</a></p><br />';					  			      
+				      echo '<div class="success">';
+				      echo '<b>Your post has been submitted, thank you.</b> <a href="post.html.php" class="button">Submit another post</a><br />';
+				      echo '</div>';			  			      
 				      echo '<table cellspacing="0" frame="void" rules="rows">';
-					    echo '<tr class="form">';
+					  echo '<tr class="form">';
 				      echo '<td class="memberpostinfo">';
 				      echo '<h1>' . nl2br($title) . '</h1><br /><br />';
 				      echo '<strong>Name:</strong> <div class="description">' . nl2br($name) . '</div><br />';
 				      echo '<strong>Description:</strong> <div class="description">' . nl2br($description) . '</div></p>';
-					    echo '<strong>Created:</strong> <div class="description">' . date('Y-m-d H:i:s') . '</div><br />';
+					  echo '<strong>Created:</strong> <div class="description">' . date('Y-m-d H:i:s') . '</div><br />';
 				      echo '<strong>Post to blog:</strong> <div class="description">'. $post .'</div>';
 				      echo  '</td>';
-					    echo '<td class="memberpostimage"><img src="' . GW_UPLOADPATH . $image .'" alt="" width="500px" /></td>';
+					  echo '<td class="memberpostimage"><img src="' . GW_UPLOADPATH . $image .'" alt="" width="500px" /></td>';
 				      echo "</tr>";
 				      echo "</table>";
 				      echo "</div>";
@@ -109,7 +111,7 @@ require_once 'connect.php';
 				    $name = "";
 				    $title = "";
 				    $description = "";
-					  $image = "";
+					$image = "";
 
 				      mysqli_close($dbc);
 						

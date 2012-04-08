@@ -71,7 +71,7 @@ $(document).ready(function(){
         	  <p>Welcome, <a href="post.html.php" class="button">add your own post.</a></p>
         	   
 			  <h1>Challenge Deadline: 06-04-2012</h1>
-        	  <p class="heading">[click here for more...]</p>
+        	  <p class="heading">[click here for further info]</p>
         	  <div class="challenge">
         	  	<h1>Challenge 1</h1>
 				<br />
